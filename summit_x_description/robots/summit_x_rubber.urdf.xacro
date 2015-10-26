@@ -15,9 +15,7 @@
 	<xacro:include filename="$(find summit_x_description)/urdf/wheels/rubber_wheel.urdf.xacro" />
     
 	<!-- Import all available sensors -->
-<!--
-	<xacro:include filename="$(find summit_x_description)/urdf/sensors/all_sensors.urdf.xacro" />
--->
+	<xacro:include filename="$(find robotnik_sensors)/urdf/all_sensors.urdf.xacro" />
   
   
   
