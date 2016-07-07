@@ -4,36 +4,24 @@
   <version>0.0.0</version>
   <description>The summit_x_common package</description>
 
-  <maintainer email="jarino@robotnik.es">Jorge Arino</maintainer>
+  <maintainer email="rnavarro@robotnik.es">Román Navarro</maintainer>
+  <maintainer email="rguzman@robotnik.es">Roberto Guzmán</maintainer>
+  <maintainer email="cvillar@robotnik.es">Carlos Villar</maintainer>
 
 
   <license>BSD</license>
 
 
-  <url type="website">https://github.com/RobotnikAutomation/summit_xl_common</url> 
+  <url type="website">https://github.com/RobotnikAutomation/summit_x_common</url> 
+  <url type="repository">https://github.com/RobotnikAutomation/summit_x_common</url>
+  <url type="bugtracker">https://github.com/RobotnikAutomation/summit_x_common/issues</url>
+
+  <author email="rguzman@robotnik.es">Roberto Guzman</author>
 
 
-  <!-- Author tags are optional, mutiple are allowed, one per tag -->
-  <!-- Authors do not have to be maintianers, but could be -->
-  <!-- Example: -->
-  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
-
-
-  <!-- The *_depend tags are used to specify dependencies -->
-  <!-- Dependencies can be catkin packages or system dependencies -->
-  <!-- Examples: -->
-  <!-- Use build_depend for packages you need at compile time: -->
-  <!--   <build_depend>message_generation</build_depend> -->
-  <!-- Use buildtool_depend for build tool packages: -->
-  <!--   <buildtool_depend>catkin</buildtool_depend> -->
-  <!-- Use run_depend for packages you need at runtime: -->
-  <!--   <run_depend>message_runtime</run_depend> -->
-  <!-- Use test_depend for packages you need only for testing: -->
-  <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>summit_x_description</run_depend>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
   <export>
     <metapackage />
   </export>
