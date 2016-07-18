@@ -2,6 +2,9 @@
 Changelog for package summit_x_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.1 (2016-07-08)
 ------------------
 * Changed package.xml files
