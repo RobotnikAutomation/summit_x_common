@@ -8,6 +8,6 @@ catkin_package(
 )
 
 install(
-  DIRECTORY launch meshes urdf robots vrep
+  DIRECTORY launch meshes urdf robots config
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
